@@ -627,11 +627,9 @@ img {vertical-align: auto;}
 
 
 
-
-
 /* Center website */
 .main {
-  width: 100opx;
+  /* width: 100px; */
   margin: auto;
 }
 
@@ -653,7 +651,7 @@ img {vertical-align: auto;}
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 40.33%;
+  width: 30.33%;
   display: none; /* Hide all elements by default */
 }
 
@@ -673,8 +671,14 @@ img {vertical-align: auto;}
   color: #78ff00;
   text-align: center;
   transform: translate(-2px,7px);
+width: 100%;
+  height:180px;
+  margin-bottom: 5%;
 }
-
+.conten img{
+	height: 100%;
+	width: 100%;
+}
 /* The "show" class is added to the filtered elements */
 .show {
   display: block;
@@ -706,6 +710,23 @@ box-shadow: 0px 0px 0px black;
 		
             
 }
+h4{
+	transform: translate(0%,-100%);
+	background-color: #333;
+	padding: 2px;
+	transform: rotate(-3deg);
+	transform: translate(0%,-100%);
+}
+@media(max-width: 786px) {
+.conten{
+	height: 80px;
+} 
+h4{
+	font-size: 8px;
+}
+
+}
+
 
 
 	</style>
@@ -790,6 +811,46 @@ box-shadow: 0px 0px 0px black;
             </div>
           </div>
          
+		
+		
+		
+		
+		
+		  <div class="column nature">
+            <div class="conten">
+                <a href="http://letus.epizy.com/" style="text-decoration: none;" class="con">
+              <img src="home.png" alt="Mountains" style="width:100%;height: 100%; " >
+              </a>
+              <h4>Home Decor</h4>
+              
+            </div>
+		  </div>
+
+
+		  <div class="column nature">
+            <div class="conten">
+                <a href="http://knotes.epizy.com/" style="text-decoration: none;" class="con">
+              <img src="notes.png" alt="Mountains" style="width:100%;height: 100%; " >
+              </a>
+              <h4>Knotes</h4>
+              
+            </div>
+		  </div>
+
+
+		  <div class="column nature">
+            <div class="conten">
+                <a href="http://c-chat.epizy.com/" style="text-decoration: none;" class="con">
+              <img src="chat.png" alt="Mountains" style="width:100%;height: 100%; " >
+              </a>
+              <h4>C-chat</h4>
+              
+            </div>
+		  </div>
+		
+		
+		
+		
 		
 		
 		
